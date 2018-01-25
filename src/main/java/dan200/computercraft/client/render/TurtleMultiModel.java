@@ -165,7 +165,7 @@ public class TurtleMultiModel implements IBakedModel
             {
                 for( int j=0; j<4; ++j ) // For each corner of the quad
                 {
-                    int start = offset + j * format.getNextOffset();
+                    int start = offset + j * format.getSize();
                     if( (start % 4) == 0 )
                     {
                         start = start / 4;

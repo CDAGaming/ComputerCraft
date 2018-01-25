@@ -32,7 +32,7 @@ public class PrintoutRecipe extends IForgeRegistryEntry.Impl<IRecipe> implements
     }
 
     @Override
-    public boolean isHidden()
+    public boolean isDynamic()
     {
         return true;
     }
